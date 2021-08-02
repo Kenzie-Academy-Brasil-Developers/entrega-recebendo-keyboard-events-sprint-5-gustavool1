@@ -1,0 +1,12 @@
+section{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(141, 181, 218);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
