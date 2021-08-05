@@ -4,16 +4,16 @@ let boxLeft = 0;
 
 function movingX(side){
     if(side === 'ArrowLeft'){
-        boxLeft-=10
+        boxLeft-=30
         section.style.left=`${boxLeft}px`
     }if(side === 'ArrowRight'){
-        boxLeft+=10
+        boxLeft+=30
         section.style.left=`${boxLeft}px`
     }if(side === 'ArrowUp'){
-        boxTop-=10
+        boxTop-=30
         section.style.top=`${boxTop}px`
     }if(side === 'ArrowDown'){
-        boxTop+=10
+        boxTop+=30
         section.style.top= `${boxTop}px`
     }
 }
